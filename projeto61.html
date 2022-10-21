@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./projeto61_files/style.css">
+    <script src="./projeto61_files/main.js.download"></script>
+</head>
+
+<body>
+    <section id="intro">
+        <h1>Origami</h1>
+        <p>Bem-vindo ao mundo das Artes e Criações. Esta página é completamente sobre melhorar suas habilidades criativas utilizando
+            técnicas de origami.
+   
+        </p><div class="line"></div>
+        <iframe width="700" height="620" style="border: 0px;" src="./projeto61_files/Origami.html"> <!-- adicione o link do wikipedia para informações sobre origami-->
+           
+        </iframe>
+       
+    </section>
+
+    <section id="origami1">
+     
+        <div class="line"></div>
+        <h1>Cisne</h1>
+            <a href="https://www.thesprucecrafts.com/traditional-origami-crane-2540790" target="_blank">
+                <img src="./projeto61_files/cisne.jpg">
+            </a> 
+            <!-- adicione o link https://www.thesprucecrafts.com/traditional-origami-crane-2540790 sobre como fazer o cisne à uma etiqueta href -->
+            <!--Ajuste a src da imagem para 'crane.jpg' e, respectivamente, a width(largura) e height(altura) para 368 e 276 -->
+
+            <h1>Tulipa</h1>
+            <a href="https://www.thesprucecrafts.com/christmas-origami-projects-4147453" target="_blank">
+                <img src="./projeto61_files/tulipa.jpg">
+            </a> 
+            <!-- adicione o link https://www.thesprucecrafts.com/christmas-origami-projects-4147453 sobre como fazer uma tulipa à uma etiqueta href--> 
+            <!--Ajuste a src da imagem para 'tulip_flower.jpg' e, respectivamente, a width(largura) e height(altura) para 368 e 276 -->
+    
+        </section>
+    <section id="origami2">
+        
+        <div class="line"></div>
+        <h1>Envelope</h1>
+            <a href="https://www.thesprucecrafts.com/make-an-easy-origami-envelope-4094705" target="_blank">
+                <img src="./projeto61_files/envelope.jpg">
+            </a> 
+            <!--adicione o link https://www.thesprucecrafts.com/make-an-easy-origami-envelope-4094705 sobre como fazer um envelope à uma etiqueta href-->
+            <!--Ajuste a src da imagem para 'envelop.jpg' e, respectivamente, a width(largura) e height(altura) para 368 e 276 -->
+           
+            <h1>Caixa</h1>
+            <a href="https://www.thesprucecrafts.com/modular-origami-cube-box-4082281" target="_blank">
+                <img src="./projeto61_files/caixa.jpg">
+            </a> 
+            <!--adicione o link https://www.thesprucecrafts.com/modular-origami-cube-box-4082281 sobre como fazer uma caixa à uma eiquta href--> 
+            <!--Set the image src as 'modular_box.jpg' and width and height to 368 and 276 respectively-->
+    
+        </section>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+</body></html>
